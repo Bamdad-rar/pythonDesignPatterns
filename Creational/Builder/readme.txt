@@ -21,3 +21,6 @@ for example one director can have the parts built in a particular order and anot
 director can have some parts not built into the object.
 
 
+in many ways builder is like factory, with the difference that in factory, the specified object
+is simply created, with no further modification(though im not saying you cant modify it). In contrast
+in builder the object is "put on an assembly line" .
