@@ -12,3 +12,13 @@ For a class to behave as a Singleton, it should not contain any references to se
 variables, static methods and/or class methods"
 
      -Design Patterns In Python by Sean Bradley
+
+
+there are multiple approaches to creating a Singleton in python, some even consider it an Anti-Pattern.
+
+
+so to elaborate on the use cases of Singleton pattern, it can be used to:
+     1. to create a single object that maintains a global state of our program.
+     2. controlling concurrent access to a shared file or resource. (for example an object that manages the connection to a database)
+     3. A service or a resource that is transversal, meaning it can be used by different parts of the program and by different users.
+
